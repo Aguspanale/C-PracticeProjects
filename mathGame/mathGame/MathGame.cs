@@ -10,7 +10,7 @@ namespace MathGameNS
         private int secondNumber;
         public void start()
         {
-            //will implement later
+           
         }
         public void answer(int anAnswer)
         {
