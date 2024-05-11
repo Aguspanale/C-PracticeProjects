@@ -1,4 +1,4 @@
-##Math game
+## Math game
 This project is my first C# project, where I've developed a Math Game following guidelines from [The C# Academy](https://thecsharpacademy.com/project/11/calculator).
 It was developed using Test-Driven Development (TDD) principles, where i learned to mock console inputs and outputs for testing. The code is kept as clean as possible.
 
