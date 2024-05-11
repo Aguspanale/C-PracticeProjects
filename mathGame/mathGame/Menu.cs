@@ -8,67 +8,79 @@ namespace MathGame
 {
     public class Menu
     {
+        Random random = new Random();
+
         string userName = "USER NOT SELECTED";
         string selectedGame = "GAME NOT SELECTED";
         int currentFirstNumber = 0;
         int currentSecondNumber = 0;
-        Random random = new Random();
+        int currentMultiple = 0;
+        public delegate (int, int) CustomFunction(int x, int y, int z);
+        public Dictionary<string, Action<int, int, int, CustomFunction>> ExecuteGameWith;
+
+        public Menu()
+        {
+            InitializeExecuteGameWith();
+        }
 
         public void Start()
-        { 
-            Console.Write("Welcome to the math game!");
+        {
+            Console.WriteLine("Welcome to the math game!");
         }
+        
+
+        private void InitializeExecuteGameWith()
+        {
+            ExecuteGameWith = new Dictionary<string, Action<int, int, int, CustomFunction>>();
+            ExecuteGameWith["Sum"] = (x, y, multiple, makeValidDivision) => PlayGame(x, y, new SummingGame());
+            ExecuteGameWith["Multiply"] = (x, y, multiple, makeValidDivision) => PlayGame(x, y, new MultiplyingGame());
+            ExecuteGameWith["Divide"] = (x, y, multiple, makeValidDivision) =>
+            {
+                (x, y) = makeValidDivision(x, y, multiple);
+                DividingGame game = new DividingGame();
+                PlayGame(x, y, game);
+            };
+            ExecuteGameWith["Substract"] = (x, y, multiple, makeValidDivision) => PlayGame(x, y, new SubstractingGame());
+        }
+
         public void readName()
         {
-            Console.WriteLine(" please enter your name: ");
+            Console.Write("please enter your name: ");            
             userName = Console.ReadLine();
+            Console.WriteLine("");
             Console.WriteLine("Hello " + userName + "!");
+            Console.WriteLine("");
         }
-        public void AskDesiredGame() 
+        public void AskDesiredGame()
         {
             Console.WriteLine("¿What game do you want to play? (Case sensitive)");
+            Console.WriteLine("");
             Console.WriteLine("Sum Multiply Divide Substract");
-            selectedGame = Console.ReadLine() ;
+            selectedGame = Console.ReadLine();
             Console.WriteLine("Game set to " + selectedGame + "!");
-            currentFirstNumber = random.Next(100);
-            currentSecondNumber = random.Next(100);
-        }
-        public void PlaySelectedGame(int firstNumber,int secondNumber)
-        {
-            Game game;
-            switch (selectedGame)
-            {
-                case "Sum":
-                    game = new SummingGame();
-                    playGame(firstNumber, secondNumber, game);
-                    break;
-                case "Multiply":
-                    game = new MultiplyingGame();
-                    playGame(firstNumber, secondNumber, game);
-                    break;
-                case "Divide":
-                    game = new DividingGame();
-                    playGame(firstNumber, secondNumber, game);
-                    break;
-                case "Substract":
-                    game = new SubstractingGame();
-                    playGame(firstNumber, secondNumber, game);
-                    break;
-            }
+            Console.WriteLine("");
+            currentFirstNumber = random.Next(30);
+            currentSecondNumber = 1 + random.Next(29);
+            currentMultiple = random.Next(10);
 
+        }
+        public void PlaySelectedGame(int firstNumber, int secondNumber)
+        {
+            ExecuteGameWith[selectedGame](firstNumber, secondNumber, currentMultiple, (x, y, z) => (x, y));
         }
 
         public void PlaySelectedGame()
         {
-            PlaySelectedGame(currentFirstNumber, currentSecondNumber);
+            ExecuteGameWith[selectedGame](currentFirstNumber, currentSecondNumber, currentMultiple, (x, y, z) => (y * z, y));
         }
 
-        private void playGame(int firstNumber, int secondNumber, Game game)
+        private void PlayGame(int firstNumber, int secondNumber, Game game)
         {
             game.Start(firstNumber, secondNumber);
             Console.WriteLine("How much is " + firstNumber + " " + game.Symbol() + " " + secondNumber + "?");
             game.Answer(Convert.ToInt32(Console.ReadLine()));
             game.declareResults(this);
+            Console.WriteLine("");
         }
 
         internal void DeclareGameLost(Game game)

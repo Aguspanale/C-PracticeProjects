@@ -1,4 +1,6 @@
 ﻿
+using MathGame;
+
 namespace MathGame
 {
     public interface IGame
@@ -17,10 +19,10 @@ namespace MathGame
         protected int secondNumber;
         internal IGameState state = new UnfinishedGameState();
         protected bool won = false;
-        public void Start(int firstNumberToSum, int secondNumberToSum)
+        public virtual void Start(int firstNumberToOperate, int secondNumberToOperate)
         {
-            firstNumber = firstNumberToSum;
-            secondNumber = secondNumberToSum;
+            firstNumber = firstNumberToOperate;
+            secondNumber = secondNumberToOperate;
         }
         public abstract void Answer(int anAnswer);
         public abstract char Symbol();
@@ -99,6 +101,24 @@ namespace MathGame
             return firstNumber / secondNumber;
         }
 
+        public override void Start(int firstNumberToOperate, int secondNumberToOperate)
+        {
+            if (secondNumberToOperate == 0)
+            {
+                throw new InvalidOperationException("Division by zero");
+            }
+            else if(firstNumberToOperate % secondNumberToOperate != 0)
+            {
+                throw new InvalidOperationException("Invalid denominator " + secondNumberToOperate + " for numerator " + firstNumberToOperate);
+            }
+            else
+            {
+                firstNumber = firstNumberToOperate;
+                secondNumber = secondNumberToOperate;
+                
+            }
+        }
+
     }
 
     public class SubstractingGame : Game
@@ -119,3 +139,4 @@ namespace MathGame
 
     }
 }
+
