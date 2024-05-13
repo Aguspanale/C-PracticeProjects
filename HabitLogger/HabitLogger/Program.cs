@@ -21,7 +21,7 @@ namespace HabitLogger
                 @"
                     CREATE TABLE IF NOT EXISTS habits(
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        Name TEXT NOT NULL                    
+                        Habit TEXT NOT NULL                    
                 )";
                 command.ExecuteNonQuery();
 

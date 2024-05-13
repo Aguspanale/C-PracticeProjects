@@ -330,11 +330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\agusm\\Documents\\c# projects\\HabitLogger\\HabitLogger\\HabitLogger.csproj",
+      "projectUniqueName": "C:\\Users\\agusm\\Documents\\c# practice\\HabitLogger\\HabitLogger\\HabitLogger.csproj",
       "projectName": "HabitLogger",
-      "projectPath": "C:\\Users\\agusm\\Documents\\c# projects\\HabitLogger\\HabitLogger\\HabitLogger.csproj",
+      "projectPath": "C:\\Users\\agusm\\Documents\\c# practice\\HabitLogger\\HabitLogger\\HabitLogger.csproj",
       "packagesPath": "C:\\Users\\agusm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\agusm\\Documents\\c# projects\\HabitLogger\\HabitLogger\\obj\\",
+      "outputPath": "C:\\Users\\agusm\\Documents\\c# practice\\HabitLogger\\HabitLogger\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\dotnet\\shared\\NuGetPackages"
