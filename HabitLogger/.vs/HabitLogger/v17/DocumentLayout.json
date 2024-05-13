@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\agusm\\Documents\\c# projects\\HabitLogger\\",
+  "WorkspaceRootPath": "C:\\Users\\agusm\\Documents\\c# practice\\HabitLogger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC1E2323-9EA3-4528-9C71-814083143CFB}|HabitLogger\\HabitLogger.csproj|c:\\users\\agusm\\documents\\c# projects\\habitlogger\\habitlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C6ED5E4-8C5D-4D02-AC57-1F1EC6D1730C}|DatabaseManagerTest\\DatabaseManagerTest.csproj|c:\\users\\agusm\\documents\\c# practice\\habitlogger\\databasemanagertest\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6ED5E4-8C5D-4D02-AC57-1F1EC6D1730C}|DatabaseManagerTest\\DatabaseManagerTest.csproj|solutionrelative:databasemanagertest\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1E2323-9EA3-4528-9C71-814083143CFB}|HabitLogger\\HabitLogger.csproj|c:\\users\\agusm\\documents\\c# practice\\habitlogger\\habitlogger\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1E2323-9EA3-4528-9C71-814083143CFB}|HabitLogger\\HabitLogger.csproj|solutionrelative:habitlogger\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1E2323-9EA3-4528-9C71-814083143CFB}|HabitLogger\\HabitLogger.csproj|c:\\users\\agusm\\documents\\c# practice\\habitlogger\\habitlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC1E2323-9EA3-4528-9C71-814083143CFB}|HabitLogger\\HabitLogger.csproj|solutionrelative:habitlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,14 +35,46 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Tests.cs",
+              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# practice\\HabitLogger\\DatabaseManagerTest\\Tests.cs",
+              "RelativeDocumentMoniker": "DatabaseManagerTest\\Tests.cs",
+              "ToolTip": "C:\\Users\\agusm\\Documents\\c# practice\\HabitLogger\\DatabaseManagerTest\\Tests.cs",
+              "RelativeToolTip": "DatabaseManagerTest\\Tests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:30:33.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# projects\\HabitLogger\\HabitLogger\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# practice\\HabitLogger\\HabitLogger\\Program.cs",
               "RelativeDocumentMoniker": "HabitLogger\\Program.cs",
-              "ToolTip": "C:\\Users\\agusm\\Documents\\c# projects\\HabitLogger\\HabitLogger\\Program.cs",
+              "ToolTip": "C:\\Users\\agusm\\Documents\\c# practice\\HabitLogger\\HabitLogger\\Program.cs",
               "RelativeToolTip": "HabitLogger\\Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T01:39:13.185Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseManager.cs",
+              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# practice\\HabitLogger\\HabitLogger\\DatabaseManager.cs",
+              "RelativeDocumentMoniker": "HabitLogger\\DatabaseManager.cs",
+              "ToolTip": "C:\\Users\\agusm\\Documents\\c# practice\\HabitLogger\\HabitLogger\\DatabaseManager.cs",
+              "RelativeToolTip": "HabitLogger\\DatabaseManager.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:31:37.927Z",
               "EditorCaption": ""
             }
           ]
