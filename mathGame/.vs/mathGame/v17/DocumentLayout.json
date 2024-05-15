@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\",
+  "WorkspaceRootPath": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8409490-EA98-4BFE-995E-7CD9A43259A3}|MathGameTest\\MathGameTests.csproj|c:\\users\\agusm\\documents\\c# projects\\game\\mathgame\\mathgametest\\menutest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8409490-EA98-4BFE-995E-7CD9A43259A3}|MathGameTest\\MathGameTests.csproj|c:\\users\\agusm\\documents\\c# practice\\mathgame\\mathgametest\\menutest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8409490-EA98-4BFE-995E-7CD9A43259A3}|MathGameTest\\MathGameTests.csproj|solutionrelative:mathgametest\\menutest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|c:\\users\\agusm\\documents\\c# projects\\game\\mathgame\\mathgame\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|solutionrelative:mathgame\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|c:\\users\\agusm\\documents\\c# projects\\game\\mathgame\\mathgame\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|solutionrelative:mathgame\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|c:\\users\\agusm\\documents\\c# projects\\game\\mathgame\\mathgame\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|c:\\users\\agusm\\documents\\c# practice\\mathgame\\mathgame\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|solutionrelative:mathgame\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8409490-EA98-4BFE-995E-7CD9A43259A3}|MathGameTest\\MathGameTests.csproj|c:\\users\\agusm\\documents\\c# projects\\game\\mathgame\\mathgametest\\gametest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|c:\\users\\agusm\\documents\\c# practice\\mathgame\\mathgame\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|solutionrelative:mathgame\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|c:\\users\\agusm\\documents\\c# practice\\mathgame\\mathgame\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|solutionrelative:mathgame\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8409490-EA98-4BFE-995E-7CD9A43259A3}|MathGameTest\\MathGameTests.csproj|c:\\users\\agusm\\documents\\c# practice\\mathgame\\mathgametest\\gametest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8409490-EA98-4BFE-995E-7CD9A43259A3}|MathGameTest\\MathGameTests.csproj|solutionrelative:mathgametest\\gametest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|c:\\users\\agusm\\documents\\c# projects\\game\\mathgame\\mathgame\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|c:\\users\\agusm\\documents\\c# practice\\mathgame\\mathgame\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18F7AF35-78F4-47E4-9845-0E2F5F6179D6}|mathGame\\mathGame.csproj|solutionrelative:mathgame\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -33,22 +33,21 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 191,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 66,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "GameTest.cs",
-              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\MathGameTest\\GameTest.cs",
+              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\MathGameTest\\GameTest.cs",
               "RelativeDocumentMoniker": "MathGameTest\\GameTest.cs",
-              "ToolTip": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\MathGameTest\\GameTest.cs",
+              "ToolTip": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\MathGameTest\\GameTest.cs",
               "RelativeToolTip": "MathGameTest\\GameTest.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAA5wCwAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T17:30:05.024Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -60,26 +59,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameState.cs",
-              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\GameState.cs",
-              "RelativeDocumentMoniker": "mathGame\\GameState.cs",
-              "ToolTip": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\GameState.cs",
-              "RelativeToolTip": "mathGame\\GameState.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAYwB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T15:20:11.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MenuTest.cs",
-              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\MathGameTest\\MenuTest.cs",
+              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\MathGameTest\\MenuTest.cs",
               "RelativeDocumentMoniker": "MathGameTest\\MenuTest.cs",
-              "ToolTip": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\MathGameTest\\MenuTest.cs",
+              "ToolTip": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\MathGameTest\\MenuTest.cs",
               "RelativeToolTip": "MathGameTest\\MenuTest.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAuwFYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T15:43:27.53Z",
               "EditorCaption": ""
@@ -88,9 +74,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "main.cs",
-              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\main.cs",
+              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\main.cs",
               "RelativeDocumentMoniker": "mathGame\\main.cs",
-              "ToolTip": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\main.cs",
+              "ToolTip": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\main.cs",
               "RelativeToolTip": "mathGame\\main.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,34 +85,45 @@
           ]
         },
         {
-          "DockedWidth": 209,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 334,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\Game.cs",
+              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\Game.cs",
               "RelativeDocumentMoniker": "mathGame\\Game.cs",
-              "ToolTip": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\Game.cs",
+              "ToolTip": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\Game.cs",
               "RelativeToolTip": "mathGame\\Game.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAADwv44AAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAmwA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T03:47:48.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\Menu.cs",
               "RelativeDocumentMoniker": "mathGame\\Menu.cs",
-              "ToolTip": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\Menu.cs",
+              "ToolTip": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\Menu.cs",
               "RelativeToolTip": "mathGame\\Menu.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwCkAAAAOAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAcwEsAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T15:40:29.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T15:40:29.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\GameState.cs",
+              "RelativeDocumentMoniker": "mathGame\\GameState.cs",
+              "ToolTip": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\GameState.cs",
+              "RelativeToolTip": "mathGame\\GameState.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAmwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T15:20:11.756Z"
             }
           ]
         }

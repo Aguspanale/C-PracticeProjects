@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RY5qz76m1cC9j8zrr7vUGFOzrLeLrWa2Fqp8Ucxb/G9m6Tor81Ffm6AfTMqclbTjEofHc6HUJgLf0rlaLovZNA==",
+  "dgSpecHash": "1nnLXy+fOwWE5yzTUP6N1kmMs4ETypnXMZXp4uDpug0ll7zAs2gh4tH48TVU3zDemnoPiQFNylYf5Kpbdm/FRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\MathGameTest\\MathGameTests.csproj",
+  "projectFilePath": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\MathGameTest\\MathGameTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\agusm\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\agusm\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
