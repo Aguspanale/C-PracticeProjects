@@ -14,35 +14,9 @@ namespace MathGame
         string selectedGame = "GAME NOT SELECTED";
         int currentFirstNumber = 0;
         int currentSecondNumber = 0;
-        int currentMultiple = 0;
-        public delegate (int, int) CustomFunction(int x, int y, int z);
-        public Dictionary<string, Action<int, int, int, CustomFunction>> ExecuteGameWith;
-
-        public Menu()
-        {
-            InitializeExecuteGameWith();
-        }
-
-        public void Start()
-        {
-            Console.WriteLine("Welcome to the math game!");
-        }
+        int currentMultiple = 0;        
+        public void Start(){Console.WriteLine("Welcome to the math game!");}
         
-
-        private void InitializeExecuteGameWith()
-        {
-            ExecuteGameWith = new Dictionary<string, Action<int, int, int, CustomFunction>>();
-            ExecuteGameWith["Sum"] = (x, y, multiple, makeValidDivision) => PlayGame(x, y, new SummingGame());
-            ExecuteGameWith["Multiply"] = (x, y, multiple, makeValidDivision) => PlayGame(x, y, new MultiplyingGame());
-            ExecuteGameWith["Divide"] = (x, y, multiple, makeValidDivision) =>
-            {
-                (x, y) = makeValidDivision(x, y, multiple);
-                DividingGame game = new DividingGame();
-                PlayGame(x, y, game);
-            };
-            ExecuteGameWith["Substract"] = (x, y, multiple, makeValidDivision) => PlayGame(x, y, new SubstractingGame());
-        }
-
         public void readName()
         {
             Console.Write("please enter your name: ");            
@@ -57,22 +31,36 @@ namespace MathGame
             Console.WriteLine("");
             Console.WriteLine("Sum Multiply Divide Substract");
             selectedGame = Console.ReadLine();
+            CommunicateCorrectlySelectedGame();
+            RegenerateRandomNumbers();
+        }
+
+        private void CommunicateCorrectlySelectedGame()
+        {
             Console.WriteLine("Game set to " + selectedGame + "!");
             Console.WriteLine("");
+        }
+
+        private void RegenerateRandomNumbers()
+        {
             currentFirstNumber = random.Next(30);
             currentSecondNumber = 1 + random.Next(29);
-            currentMultiple = random.Next(10);
-
+            if(selectedGame == "Divide")
+            {
+                currentMultiple = random.Next(10);
+                currentFirstNumber = currentSecondNumber * currentMultiple;
+            }
         }
+
         public void PlaySelectedGame(int firstNumber, int secondNumber)
         {
-            ExecuteGameWith[selectedGame](firstNumber, secondNumber, currentMultiple, (x, y, z) => (x, y));
+            if (selectedGame == "Divide") PlayGame(firstNumber, secondNumber, new DividingGame());
+            if (selectedGame == "Multiply") PlayGame(firstNumber, secondNumber, new MultiplyingGame());
+            if (selectedGame == "Sum") PlayGame(firstNumber, secondNumber, new SummingGame());
+            if (selectedGame == "Substract") PlayGame(firstNumber, secondNumber, new SubstractingGame());
         }
 
-        public void PlaySelectedGame()
-        {
-            ExecuteGameWith[selectedGame](currentFirstNumber, currentSecondNumber, currentMultiple, (x, y, z) => (y * z, y));
-        }
+        public void PlaySelectedGame(){PlaySelectedGame(currentFirstNumber, currentSecondNumber);}
 
         private void PlayGame(int firstNumber, int secondNumber, Game game)
         {
@@ -83,14 +71,8 @@ namespace MathGame
             Console.WriteLine("");
         }
 
-        internal void DeclareGameLost(Game game)
-        {
-            Console.WriteLine("Incorrect answer, correct answer was " + game.CorrectAnswer());
-        }
+        internal void DeclareGameLost(Game game){Console.WriteLine("Incorrect answer, correct answer was " + game.CorrectAnswer());}
 
-        internal void DeclareGameWon()
-        {
-            Console.WriteLine("That's correct!");
-        }
+        internal void DeclareGameWon(){Console.WriteLine("That's correct!");}
     }
 }

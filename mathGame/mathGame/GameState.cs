@@ -13,16 +13,9 @@ namespace MathGame
     }
 
     internal class UnfinishedGameState : IGameState
-    {
-
-        public bool IsWin(Game aGame)
-        {
-            return aGame.IsWinWhenUnfinished();
-        }
-        public void declareResults(Menu menu, Game aGame)
-        {
-            aGame.IsWinWhenUnfinished();
-        }
+    { 
+        public bool IsWin(Game aGame){return aGame.IsWinWhenUnfinished();}
+        public void declareResults(Menu menu, Game aGame){aGame.IsWinWhenUnfinished();}
     }
     internal abstract class FinishedGameState : IGameState
     {
@@ -30,35 +23,19 @@ namespace MathGame
         public abstract void declareResults(Menu menu,Game aGame);
         internal static FinishedGameState representResult(bool gameWasWon)
         {
-             if(gameWasWon)
-            {
-                return new WonGameState();
-            }
+            if(gameWasWon)return new WonGameState();
             return new LostGameState();
         }
-        
     }
     internal class WonGameState : FinishedGameState
     {
-        public override bool IsWin(Game aGame)
-        {
-            return true;
-        }
-        public override void declareResults(Menu aMenu, Game aGame)
-        {
-            aMenu.DeclareGameWon();
-        }
+        public override bool IsWin(Game aGame){return true;}
+        public override void declareResults(Menu aMenu, Game aGame){aMenu.DeclareGameWon();}
     }
     internal class LostGameState : FinishedGameState
     {
-        public override bool IsWin(Game aGame)
-        {
-            return false;
-        }
-        public override void declareResults(Menu aMenu, Game aGame)
-        {
-            aMenu.DeclareGameLost(aGame);
-        }
+        public override bool IsWin(Game aGame){return false;}
+        public override void declareResults(Menu aMenu, Game aGame){aMenu.DeclareGameLost(aGame);}
     }
 }
 

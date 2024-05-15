@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\MathGameTest\\MathGameTests.csproj": {}
+    "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\MathGameTest\\MathGameTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\MathGameTest\\MathGameTests.csproj": {
+    "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\MathGameTest\\MathGameTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\MathGameTest\\MathGameTests.csproj",
+        "projectUniqueName": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\MathGameTest\\MathGameTests.csproj",
         "projectName": "MathGameTests",
-        "projectPath": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\MathGameTest\\MathGameTests.csproj",
+        "projectPath": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\MathGameTest\\MathGameTests.csproj",
         "packagesPath": "C:\\Users\\agusm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\MathGameTest\\obj\\",
+        "outputPath": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\MathGameTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\dotnet\\shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\mathGame.csproj": {
-                "projectPath": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\mathGame.csproj"
+              "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\mathGame.csproj": {
+                "projectPath": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\mathGame.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\mathGame.csproj": {
+    "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\mathGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\mathGame.csproj",
+        "projectUniqueName": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\mathGame.csproj",
         "projectName": "mathGame",
-        "projectPath": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\mathGame.csproj",
+        "projectPath": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\mathGame.csproj",
         "packagesPath": "C:\\Users\\agusm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agusm\\Documents\\c# projects\\game\\mathGame\\mathGame\\obj\\",
+        "outputPath": "C:\\Users\\agusm\\Documents\\c# practice\\mathGame\\mathGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\dotnet\\shared\\NuGetPackages"
